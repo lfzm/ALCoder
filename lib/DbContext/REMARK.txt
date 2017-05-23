@@ -1,0 +1,4 @@
+EntityFramework.dll  			实体框架程序，新应用数据访问技术
+	MySql.Data.Entity.EF6.dll	MySQL实体框架数据提供程序
+	MySql.Data.dll			MySQL的ADO.Net驱动程序
+StackExchange.Redis.dll			Redis的客户端程序

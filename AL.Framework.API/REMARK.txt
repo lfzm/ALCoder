@@ -1,0 +1,5 @@
+﻿使用说明：外部使用组件包需要在NuGet导入
+
+	1、Microsoft.AspNet.WebApi：WebAPi框架程序集。
+	2、Microsoft.Net.Http (中文版：Microsoft.Net.Http.zh-Hans)：处理HTTP消息的请求消息和响应消息。
+	

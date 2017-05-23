@@ -1,0 +1,4 @@
+﻿使用说明：外部使用组件包需要在NuGet导入
+
+	1、Microsoft.AspNet.Mvc (中文版：Microsoft.AspNet.Mvc.zh-Hans)：Mvc框架程序集。
+	2、Microsoft.AspNet.Web.Optimization (中文版：Microsoft.AspNet.Web.Optimization.zh-Hans) ：捆绑和优化CSS和JavaScript文件的方法程序集

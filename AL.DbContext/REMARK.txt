@@ -1,0 +1,4 @@
+﻿使用说明：外部使用组件包需要在NuGet导入
+
+	1、MySql.Data.Entity：MySQL实体框架数据提供程序
+	2、StackExchange.Redis ：Redis的客户端程序
