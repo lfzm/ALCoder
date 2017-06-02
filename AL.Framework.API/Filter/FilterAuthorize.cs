@@ -14,7 +14,7 @@ using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace AL.Framework.API.Filter
+namespace AL.Framework.WebApi.Filter
 {
     /// <summary>
     /// 授权筛选器

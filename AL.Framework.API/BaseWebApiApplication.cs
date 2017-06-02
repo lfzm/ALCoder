@@ -1,6 +1,6 @@
 ﻿using AL.Common.Extention;
 using AL.Common.Models;
-using AL.Framework.API.Filter;
+using AL.Framework.WebApi.Filter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Filters;
 
-namespace AL.Framework.API
+namespace AL.Framework.WebApi
 {
     /// <summary>
     /// WebApi 全局配置基类

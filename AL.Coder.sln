@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Common", "AL.Common\AL.Common.csproj", "{4FEA0C08-D606-404C-963C-B648D86F3456}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Framework.Net", "AL.Fram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Framework.MVC", "AL.Framework.MVC\AL.Framework.MVC.csproj", "{F7E727BD-6109-4B2A-9230-0DB8A2509F65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Framework.API", "AL.Framework.API\AL.Framework.API.csproj", "{0F294FB5-F370-4D3D-BB6B-CDF7A3B03716}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Framework.WebApi", "AL.Framework.API\AL.Framework.WebApi.csproj", "{0F294FB5-F370-4D3D-BB6B-CDF7A3B03716}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.DbContext", "AL.DbContext\AL.DbContext.csproj", "{979AC8E0-E830-46A7-B3ED-1CEEFFF3F5BE}"
 EndProject

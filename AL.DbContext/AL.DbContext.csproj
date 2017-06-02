@@ -34,8 +34,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AL.Common, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AL.Common.1.0.1.0\lib\net452\AL.Common.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\lib\DbContext\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="StackExchange.Redis">
       <HintPath>..\lib\DbContext\StackExchange.Redis.dll</HintPath>
@@ -61,17 +67,13 @@
     <Compile Include="Tcp\TcpContextBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AL.Common\AL.Common.csproj">
-      <Project>{4fea0c08-d606-404c-963c-b648d86f3456}</Project>
-      <Name>AL.Common</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="REMARK.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

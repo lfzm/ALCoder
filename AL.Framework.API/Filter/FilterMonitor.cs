@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace AL.Framework.API.Filter
+namespace AL.Framework.WebApi.Filter
 {
     /// <summary>
     /// 性能监控

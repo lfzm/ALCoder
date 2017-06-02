@@ -9,7 +9,7 @@ using System.Web.Http.Filters;
 using AL.Common.Extention;
 using AL.Common.Modules.LogModule;
 
-namespace AL.Framework.API.Filter
+namespace AL.Framework.WebApi.Filter
 {
     /// <summary>
     /// 访问信息采集

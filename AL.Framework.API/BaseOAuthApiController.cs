@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AL.Framework.API
+namespace AL.Framework.WebApi
 {
     /// <summary>
     /// (需要授权)

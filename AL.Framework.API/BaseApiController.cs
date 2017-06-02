@@ -6,7 +6,7 @@ using System.Web.Http.ModelBinding;
 using System.Text;
 using AL.Common.Models;
 
-namespace AL.Framework.API
+namespace AL.Framework.WebApi
 {
     /// <summary>
     /// WebApi 基类 
