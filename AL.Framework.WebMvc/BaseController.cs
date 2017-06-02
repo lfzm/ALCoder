@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
     /// MVC基类

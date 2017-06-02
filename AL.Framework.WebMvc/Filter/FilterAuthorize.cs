@@ -8,7 +8,7 @@ using System.Web.Routing;
 using AL.Common.Extention;
 using AL.Common.Models;
 
-namespace AL.Framework.MVC.Filter
+namespace AL.Framework.WebMvc.Filter
 {
     /// <summary>
     /// 授权过滤器

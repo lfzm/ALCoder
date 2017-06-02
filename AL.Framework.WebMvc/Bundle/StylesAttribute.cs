@@ -1,37 +1,41 @@
-﻿using System;
+﻿using AL.Common.Helper.Encrypt;
+using AL.Framework.WebMvc.Bundle;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Optimization;
-using AL.Common.Helper.Encrypt;
-using AL.Framework.MVC.Bundle;
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
-    /// JS 资源注册属性
+    /// CSS 资源注册属性
     /// </summary>
-    [AttributeUsage(AttributeTargets.Method| AttributeTargets.Assembly, AllowMultiple = true)]
-    public class ScriptsAttribute : ActionFilterAttribute
+    [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
+    public class StylesAttribute : ActionFilterAttribute
     {
-
-        /// <summary>
-        /// Js脚本
-        /// </summary>
-        private string[] scripts { get; set; }
         /// <summary>
         /// Js脚本分组名称
         /// </summary>
         public string GroupName { get; set; }
-
+        /// <summary>
+        /// Js脚本
+        /// </summary>
+        private string[] styles { get; set; }
+ 
         /// <summary>
         /// 构造函数
         /// </summary>
-        /// <param name="scripts">js脚本路径数组</param>
-        public ScriptsAttribute(params string[] scripts)
+        /// <param name="styles">CSS脚本路径数组</param>
+        public StylesAttribute(params string[] styles) 
         {
-            this.scripts = scripts;
+            this.styles = styles;
         }
 
-       
+     
+
         /// <summary>
         /// 方法执行时调用
         /// </summary>
@@ -39,24 +43,20 @@ namespace AL.Framework.MVC
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             //获取页面定位
-           string controller = filterContext.RouteData.Values["controller"].ToString();
+            string controller = filterContext.RouteData.Values["controller"].ToString();
             string action = filterContext.RouteData.Values["action"].ToString();
             object area = filterContext.RouteData.Values["area"];
             string key = string.Format("{0}/{1}/{2}", area, controller, action);
 
-            if (ALScripts.BundleScripts.ContainsKey(key))
+            if (ALStyles.BundleStyles.ContainsKey(key))
                 return;
 
             //注册资源
             if (!string.IsNullOrEmpty(this.GroupName))
-                ALScripts.BundlesGroup(key, this.GroupName, this.scripts);
+                ALStyles.BundlesGroup(key, this.GroupName);
             else
-                ALScripts.BundlesAdd(key, scripts);
-
+                ALStyles.BundlesAdd(key, styles);
             base.OnActionExecuting(filterContext);
         }
     }
-
-
-
 }

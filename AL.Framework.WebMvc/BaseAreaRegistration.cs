@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
     /// 注册区域控制器

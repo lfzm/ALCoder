@@ -1,12 +1,12 @@
 ﻿using AL.Common.Helper.Encrypt;
-using AL.Framework.MVC.Bundle;
+using AL.Framework.WebMvc.Bundle;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
     ///Css资源

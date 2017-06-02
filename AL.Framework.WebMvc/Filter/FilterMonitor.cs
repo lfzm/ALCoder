@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-namespace AL.Framework.MVC.Filter
+namespace AL.Framework.WebMvc.Filter
 {
     /// <summary>
     /// 日志处理器

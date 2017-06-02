@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace AL.Framework.MVC.Filter
+namespace AL.Framework.WebMvc.Filter
 {
     /// <summary>
     /// 是否开启Https超文本传输安全协议 过滤器

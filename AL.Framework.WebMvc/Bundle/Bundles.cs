@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AL.Framework.MVC.Bundle
+namespace AL.Framework.WebMvc.Bundle
 {
     /// <summary>
     /// 捆绑Css、Js对象

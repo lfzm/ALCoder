@@ -1,6 +1,6 @@
 ﻿using AL.Common.Extention;
 using AL.Common.Models;
-using AL.Framework.MVC.Filter;
+using AL.Framework.WebMvc.Filter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
     /// 全局配置基类

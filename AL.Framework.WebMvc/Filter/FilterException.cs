@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using AL.Common.Modules.LogModule;
 using AL.Common.Extention;
 
-namespace AL.Framework.MVC.Filter
+namespace AL.Framework.WebMvc.Filter
 {
     /// <summary>
     /// 错误处理过滤器

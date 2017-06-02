@@ -2,7 +2,7 @@
 using AL.Common.Extention;
 
 
-namespace AL.Framework.MVC
+namespace AL.Framework.WebMvc
 {
     /// <summary>
     /// 授权基类

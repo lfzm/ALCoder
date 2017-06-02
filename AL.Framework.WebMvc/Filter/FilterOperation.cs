@@ -8,7 +8,7 @@ using System.Web.Mvc;
 using AL.Common.Extention;
 using AL.Common.Modules.LogModule;
 
-namespace AL.Framework.MVC.Filter
+namespace AL.Framework.WebMvc.Filter
 {
     /// <summary>
     /// 操作日志过滤器(属性 配置)
