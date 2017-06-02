@@ -15,7 +15,7 @@ namespace Zzll.Net.Framework
         /// <summary>
         /// 操作代码
         /// </summary>
-        public string code { get; set; }
+        public string code { get; set; } 
         /// <summary>
         /// 功能报文
         /// </summary>
